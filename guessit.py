@@ -20,3 +20,7 @@ user_guess = int(input())
 while user_guess != correct_number:
     user_guess = int(input())
     check(user_guess, correct_number)
+
+def second_function():
+    return 0 #this function also does nothing but will be merged
+            # to master because what the hell
