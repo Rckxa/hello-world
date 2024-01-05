@@ -21,6 +21,12 @@ while user_guess != correct_number:
     user_guess = int(input())
     check(user_guess, correct_number)
 
+# <<<<<<< HEAD
 #added a new function
 def do_nothing():
     return 0
+# =======
+def second_function():
+    return 0 #this function also does nothing but will be merged
+            # to master because what the hell
+# >>>>>>> origin/hers
