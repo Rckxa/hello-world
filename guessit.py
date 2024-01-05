@@ -5,10 +5,10 @@ def gen():
     return random.randint(1, 10)
 
 
-def check(user_guess, correct_number):
-    if user_guess < correct_number:
+def check(guess, correct):
+    if guess < correct:
         print('low')
-    elif user_guess > correct_number:
+    elif guess > correct:
         print('high')
     else:
         print('correct')
