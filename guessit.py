@@ -1,4 +1,9 @@
-print('hello world')
-print('how are you')
-print('Fine thanks,how are you')
-print('added an extra line of code')
+import random
+
+def gen():
+    #generate a random number
+    return random.randint(1, 10)
+
+# our variables
+correct_number = gen();
+user_guess = int(input("Enter a number \n"))
