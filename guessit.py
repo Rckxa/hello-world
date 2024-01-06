@@ -30,3 +30,5 @@ def second_function():
     return 0 #this function also does nothing but will be merged
             # to master because what the hell
 # >>>>>>> origin/hers
+
+# comment added by hers branch
